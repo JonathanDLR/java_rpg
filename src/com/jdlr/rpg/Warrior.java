@@ -1,21 +1,23 @@
 package com.jdlr.rpg;
 
 public class Warrior extends Character {
-    public Warrior(int level, int force, int dexterity, int intelligence) {
-        super(level, force, dexterity, intelligence);
+    public Warrior(int level, int strength, int dexterity, int intelligence, String name) {
+        super(level, strength, dexterity, intelligence, name);
     }
 
     @Override
     public void basicAttack(Character character) {
-        character.setLife(character.getLife() - this.getForce());
+        System.out.println(this.getName() + " utilise coup d'épée et inflige " + this.getStrength() + " dommages.");
+        System.out.println(character.getName() + " perd " + this.getStrength() + " de vie.");
+        character.setLife(character.getLife() - this.getStrength());
     }
 
-    /**
-     * Special attack of the warrior
-     * @param character the enemy
-     */
+    @Override
     public void specialAttack(Character character) {
-        character.setLife(character.getLife() - (this.getForce() * 2));
-        this.setLife(this.getLife() - (this.getForce()/2));
+        System.out.println(this.getName() + " utilise coup de rage et inflige " + this.getStrength()  * 2 + " dommages.");
+        System.out.println(character.getName() + " perd " + this.getStrength() * 2 + " de vie.");
+        System.out.println(character.getName() + " perd " + this.getStrength() / 2 + " de vie.");
+        character.setLife(character.getLife() - (this.getStrength() * 2));
+        this.setLife(this.getLife() - (this.getStrength()/2));
     }
 }

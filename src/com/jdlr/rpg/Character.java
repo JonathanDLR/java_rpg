@@ -1,18 +1,23 @@
 package com.jdlr.rpg;
 
+import java.util.Scanner;
+
 public abstract class Character {
     private int level;
     private int life;
-    private int force;
+    private int strength;
     private int dexterity;
     private int intelligence;
+    private String name;
 
-    public Character(int level, int force, int dexterity, int intelligence) {
+
+    public Character(int level, int strength, int dexterity, int intelligence, String name) {
         this.level = level;
         this.life = level * 5;
-        this.force = force;
+        this.strength = strength;
         this.dexterity = dexterity;
         this.intelligence = intelligence;
+        this.name = name;
     }
 
     /**
@@ -20,6 +25,13 @@ public abstract class Character {
      * @param character the enemy
      */
     public abstract void basicAttack(Character character);
+
+    /**
+     * Special attack dealing
+     * @param character the character
+     */
+    public abstract void specialAttack(Character character);
+
 
     public int getLevel() {
         return level;
@@ -37,12 +49,12 @@ public abstract class Character {
         this.life = life;
     }
 
-    public int getForce() {
-        return force;
+    public int getStrength() {
+        return strength;
     }
 
-    public void setForce(int force) {
-        this.force = force;
+    public void setStrength(int strength) {
+        this.strength = strength;
     }
 
     public int getDexterity() {
@@ -59,5 +71,13 @@ public abstract class Character {
 
     public void setIntelligence(int intelligence) {
         this.intelligence = intelligence;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
