@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="768db9fc-c4d4-4585-92de-08818a6c3c90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/com/jdlr/rpg/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/com/jdlr/rpg/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -51,22 +44,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="112" column="80" selection-start-line="112" selection-start-column="80" selection-end-line="112" selection-end-column="80" />
+            <state relative-caret-position="343">
+              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Warrior.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="283">
@@ -75,23 +59,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/com/jdlr/rpg/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="328">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="86" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -126,19 +101,19 @@
       <list>
         <option value="$PROJECT_DIR$/Test/CharacterTest.java" />
         <option value="$PROJECT_DIR$/Test/PlayerTest.java" />
-        <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Player.java" />
         <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Rogue.java" />
-        <option value="$PROJECT_DIR$/Test/com/jdlr/rpg/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Character.java" />
         <option value="$PROJECT_DIR$/Test/com/jdlr/rpg/GameTest.java" />
         <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Game.java" />
         <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Warrior.java" />
         <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java" />
+        <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Player.java" />
+        <option value="$PROJECT_DIR$/Test/com/jdlr/rpg/PlayerTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="45" />
     <option name="width" value="1400" />
@@ -216,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PlayerTest.Given_BadResponse_When_askSomething_Then_DisplayDexterity">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.jdlr.rpg.Main" />
       <module name="rpg" />
@@ -243,7 +218,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.Given_BadAttribute_When_createCharacter_Then_DisplayError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest.Given_BadResponse_When_askSomething_Then_DisplayDexterity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpg" />
       <extension name="coverage">
         <pattern>
@@ -253,7 +228,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.jdlr.rpg" />
       <option name="MAIN_CLASS_NAME" value="com.jdlr.rpg.PlayerTest" />
-      <option name="METHOD_NAME" value="Given_BadAttribute_When_createCharacter_Then_DisplayError" />
+      <option name="METHOD_NAME" value="Given_BadResponse_When_askSomething_Then_DisplayDexterity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest.Given_BadResponse_When_askSomething_Then_DisplayDexterity" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PlayerTest.Given_Response_When_askSomething_Then_DisplayDexterity" />
         <item itemvalue="JUnit.GameTest.Given_Response1_When_askAction_Then_NormalAttack" />
         <item itemvalue="JUnit.PlayerTest.Given_Response1_When_askType_Then_DisplayWarrior" />
-        <item itemvalue="JUnit.PlayerTest.Given_Response_When_askSomething_Then_DisplayDexterity" />
-        <item itemvalue="JUnit.PlayerTest.Given_BadAttribute_When_createCharacter_Then_DisplayError" />
       </list>
     </recent_temporary>
   </component>
@@ -315,39 +290,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlayerTest_Given_Response1_When_askType_Then_DisplayWarrior - 2019.04.26 at 15h 19m 32s.xml">
-      <configuration name="PlayerTest.Given_Response1_When_askType_Then_DisplayWarrior" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_Given_Response_When_askSomething_Then_DisplayDexterity - 2019.04.26 at 15h 19m 43s.xml">
+    <history-entry file="PlayerTest_Given_Response_When_askSomething_Then_DisplayDexterity - 2019.04.27 at 16h 17m 52s.xml">
       <configuration name="PlayerTest.Given_Response_When_askSomething_Then_DisplayDexterity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_Given_Response1_When_askAction_Then_NormalAttack - 2019.04.26 at 15h 41m 22s.xml">
-      <configuration name="GameTest.Given_Response1_When_askAction_Then_NormalAttack" configurationId="JUnit" />
+    <history-entry file="PlayerTest_Given_Response_When_askSomething_Then_DisplayDexterity - 2019.04.27 at 16h 18m 09s.xml">
+      <configuration name="PlayerTest.Given_Response_When_askSomething_Then_DisplayDexterity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest_Given_Response1_When_askType_Then_DisplayWarrior - 2019.04.26 at 15h 42m 11s.xml">
-      <configuration name="PlayerTest.Given_Response1_When_askType_Then_DisplayWarrior" configurationId="JUnit" />
+    <history-entry file="PlayerTest_Given_Response_When_askSomething_Then_DisplayDexterity - 2019.04.27 at 16h 18m 26s.xml">
+      <configuration name="PlayerTest.Given_Response_When_askSomething_Then_DisplayDexterity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_Given_Response1_When_askAction_Then_NormalAttack - 2019.04.26 at 15h 43m 28s.xml">
-      <configuration name="GameTest.Given_Response1_When_askAction_Then_NormalAttack" configurationId="JUnit" />
+    <history-entry file="PlayerTest_Given_BadResponse_When_askSomething_Then_DisplayDexterity - 2019.04.27 at 16h 19m 02s.xml">
+      <configuration name="PlayerTest.Given_BadResponse_When_askSomething_Then_DisplayDexterity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_Given_Response1_When_askAction_Then_NormalAttack - 2019.04.26 at 15h 59m 16s.xml">
-      <configuration name="GameTest.Given_Response1_When_askAction_Then_NormalAttack" configurationId="JUnit" />
+    <history-entry file="PlayerTest_Given_BadResponse_When_askSomething_Then_DisplayDexterity - 2019.04.27 at 16h 19m 52s.xml">
+      <configuration name="PlayerTest.Given_BadResponse_When_askSomething_Then_DisplayDexterity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_Given_Response1_When_askAction_Then_NormalAttack - 2019.04.26 at 16h 01m 54s.xml">
-      <configuration name="GameTest.Given_Response1_When_askAction_Then_NormalAttack" configurationId="JUnit" />
+    <history-entry file="PlayerTest_Given_BadResponse_When_askSomething_Then_DisplayDexterity - 2019.04.27 at 16h 20m 08s.xml">
+      <configuration name="PlayerTest.Given_BadResponse_When_askSomething_Then_DisplayDexterity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_Given_Response1_When_askAction_Then_NormalAttack - 2019.04.26 at 16h 01m 59s.xml">
-      <configuration name="GameTest.Given_Response1_When_askAction_Then_NormalAttack" configurationId="JUnit" />
+    <history-entry file="PlayerTest_Given_BadResponse_When_askSomething_Then_DisplayDexterity - 2019.04.27 at 16h 23m 21s.xml">
+      <configuration name="PlayerTest.Given_BadResponse_When_askSomething_Then_DisplayDexterity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_Given_Response1_When_askAction_Then_NormalAttack - 2019.04.26 at 16h 52m 41s.xml">
-      <configuration name="GameTest.Given_Response1_When_askAction_Then_NormalAttack" configurationId="JUnit" />
+    <history-entry file="PlayerTest_Given_BadResponse_When_askSomething_Then_DisplayDexterity - 2019.04.27 at 16h 27m 43s.xml">
+      <configuration name="PlayerTest.Given_BadResponse_When_askSomething_Then_DisplayDexterity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_Given_Response1_When_askAction_Then_NormalAttack - 2019.04.27 at 14h 12m 09s.xml">
-      <configuration name="GameTest.Given_Response1_When_askAction_Then_NormalAttack" configurationId="JUnit" />
+    <history-entry file="PlayerTest_Given_BadResponse_When_askSomething_Then_DisplayDexterity - 2019.04.27 at 16h 29m 26s.xml">
+      <configuration name="PlayerTest.Given_BadResponse_When_askSomething_Then_DisplayDexterity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_Given_BadResponse_When_askSomething_Then_DisplayDexterity - 2019.04.27 at 16h 29m 49s.xml">
+      <configuration name="PlayerTest.Given_BadResponse_When_askSomething_Then_DisplayDexterity" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1600" height="875" extended-state="7" />
+    <frame x="0" y="25" width="1600" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2911311" />
@@ -399,40 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="86" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/com/jdlr/rpg/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/com/jdlr/rpg/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -446,10 +387,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="112" column="80" selection-start-line="112" selection-start-column="80" selection-end-line="112" selection-end-column="80" />
+        <state relative-caret-position="343">
+          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/com/jdlr/rpg/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="86" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -457,6 +422,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/com/jdlr/rpg/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -19,10 +19,10 @@ class PlayerTest {
     }
 
     @Test
-    public void Given_Response_When_askSomething_Then_DisplayDexterity() {
-        System.setIn(new ByteArrayInputStream("15\n".getBytes()));
+    public void Given_BadResponse_When_askSomething_Then_DisplayDexterity() {
+        System.setIn(new ByteArrayInputStream("115\n10\n".getBytes()));
         Player player1 = new Player();
         int choice = player1.askSomething("Dextérité");
-        assertEquals(15, choice);
+        assertEquals(10, choice);
     }
 }

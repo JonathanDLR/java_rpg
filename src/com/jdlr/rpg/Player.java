@@ -34,7 +34,21 @@ public class Player {
     public int askSomething(String attribute) {
         System.out.println(attribute + " du personnage");
         int nbRep;
-        nbRep = sc.nextInt();
+        boolean responseIsGood;
+
+        do {
+            nbRep = sc.nextInt();
+            if (attribute == "Niveau") {
+                responseIsGood = (nbRep >= 1 && nbRep <= 100);
+            } else {
+                responseIsGood = (nbRep >= 0 && nbRep <= 100);
+            }
+            if (!responseIsGood && attribute == "Niveau") {
+                System.out.println("Le niveau  doit être compris entre 1 et 100");
+            } else if (!responseIsGood && attribute != "Niveau") {
+                System.out.println("La valeur de l'attribut doit être comprise entre 0 et 100");
+            }
+        } while (!responseIsGood);
         return nbRep;
     }
 
