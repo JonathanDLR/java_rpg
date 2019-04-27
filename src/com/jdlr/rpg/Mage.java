@@ -20,7 +20,8 @@ public class Mage extends Character {
             System.out.println(this.getName() + " utilise soin et récupère " + this.getIntelligence() * 2 + " de vie.");
             this.setLife(this.getLife() + (this.getIntelligence() * 2));
         } else {
-            System.out.println(this.getName() + " utilise soin et récupère " + 0 + " de vie.");
+            int difLife = this.baseLife - this.getLife();
+            System.out.println(this.getName() + " utilise soin et récupère " + difLife + " de vie.");
             this.setLife(this.baseLife);
         }
     }

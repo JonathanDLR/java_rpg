@@ -8,7 +8,7 @@ public class Game {
     /**
      * Display and create player ahd their character
      */
-    public void start() {
+    public Player[] start() {
         System.out.println("Création du personnage Joueur 1");
         Player player1 = new Player();
         player1.createCharacter("Joueur 1");
@@ -16,6 +16,8 @@ public class Game {
         Player player2 = new Player();
         player2.createCharacter("Joueur 2");
         System.out.println(player2.charac.getLife());
+        Player[] playerArray = {player1, player2};
+        return playerArray;
     }
 
     /**
@@ -51,5 +53,23 @@ public class Game {
         } else {
             player.charac.specialAttack(adversary.charac);
         }
+    }
+
+    /**
+     * start the game, display the action and check if game is over
+     */
+    public void inGame() {
+        Player[] playerArray = this.start();
+        Player player1 = playerArray[0];
+        Player player2 = playerArray[1];
+
+        do {
+            this.resolveAction(player1, player2);
+            player2.charac.isDead();
+             if (player2.charac.getLife() > 0) {
+                 this.resolveAction(player2, player1);
+                 player1.charac.isDead();
+             }
+        } while(player1.charac.getLife() > 0 && player2.charac.getLife() > 0);
     }
 }

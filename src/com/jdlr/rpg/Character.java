@@ -32,6 +32,16 @@ public abstract class Character {
      */
     public abstract void specialAttack(Character character);
 
+    /**
+     * check if character is dead
+     */
+    public void isDead() {
+        if (this.getLife() <= 0) {
+            System.out.println(this.getName() + " est mort!");
+            System.out.println(this.getName() + " a perdu!");
+        }
+    }
+
 
     public int getLevel() {
         return level;

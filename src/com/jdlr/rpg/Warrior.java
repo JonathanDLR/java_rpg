@@ -16,7 +16,7 @@ public class Warrior extends Character {
     public void specialAttack(Character character) {
         System.out.println(this.getName() + " utilise coup de rage et inflige " + this.getStrength()  * 2 + " dommages.");
         System.out.println(character.getName() + " perd " + this.getStrength() * 2 + " de vie.");
-        System.out.println(character.getName() + " perd " + this.getStrength() / 2 + " de vie.");
+        System.out.println(this.getName() + " perd " + this.getStrength() / 2 + " de vie.");
         character.setLife(character.getLife() - (this.getStrength() * 2));
         this.setLife(this.getLife() - (this.getStrength()/2));
     }

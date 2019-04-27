@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="768db9fc-c4d4-4585-92de-08818a6c3c90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/com/jdlr/rpg/GameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/com/jdlr/rpg/PlayerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpg.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpg/com/jdlr/rpg/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Rogue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jdlr/rpg/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdlr/rpg/Warrior.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -39,9 +36,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+            <state relative-caret-position="253">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding>
+                <element signature="e#1578#1579#0" expanded="true" />
                 <element signature="e#1605#1606#0" expanded="true" />
                 <element signature="e#1645#1646#0" expanded="true" />
                 <element signature="e#1677#1678#0" expanded="true" />
@@ -53,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="808">
               <caret line="112" column="80" selection-start-line="112" selection-start-column="80" selection-end-line="112" selection-end-column="80" />
             </state>
           </provider>
@@ -62,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -71,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+            <state relative-caret-position="283">
+              <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -92,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            <state relative-caret-position="345">
+              <caret line="23" column="86" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -101,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/com/jdlr/rpg/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,19 +126,19 @@
       <list>
         <option value="$PROJECT_DIR$/Test/CharacterTest.java" />
         <option value="$PROJECT_DIR$/Test/PlayerTest.java" />
-        <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Rogue.java" />
+        <option value="$PROJECT_DIR$/Test/com/jdlr/rpg/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Character.java" />
+        <option value="$PROJECT_DIR$/Test/com/jdlr/rpg/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Game.java" />
         <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Warrior.java" />
         <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java" />
-        <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Rogue.java" />
-        <option value="$PROJECT_DIR$/src/com/jdlr/rpg/Game.java" />
-        <option value="$PROJECT_DIR$/Test/com/jdlr/rpg/PlayerTest.java" />
-        <option value="$PROJECT_DIR$/Test/com/jdlr/rpg/GameTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="45" />
     <option name="width" value="1400" />
@@ -152,7 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,7 +184,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.Given_Response1_When_askAction_Then_NormalAttack">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.jdlr.rpg.Main" />
       <module name="rpg" />
@@ -295,9 +293,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.GameTest.Given_Response1_When_askAction_Then_NormalAttack" />
         <item itemvalue="JUnit.PlayerTest.Given_Response1_When_askType_Then_DisplayWarrior" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PlayerTest.Given_Response_When_askSomething_Then_DisplayDexterity" />
         <item itemvalue="JUnit.PlayerTest.Given_BadAttribute_When_createCharacter_Then_DisplayError" />
       </list>
@@ -317,9 +315,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlayerTest_Given_Response_When_askSomething_Then_DisplayDexterity - 2019.04.12 at 17h 00m 39s.xml">
-      <configuration name="PlayerTest.Given_Response_When_askSomething_Then_DisplayDexterity" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PlayerTest_Given_Response1_When_askType_Then_DisplayWarrior - 2019.04.26 at 15h 19m 32s.xml">
       <configuration name="PlayerTest.Given_Response1_When_askType_Then_DisplayWarrior" configurationId="JUnit" />
     </history-entry>
@@ -347,12 +342,15 @@
     <history-entry file="GameTest_Given_Response1_When_askAction_Then_NormalAttack - 2019.04.26 at 16h 52m 41s.xml">
       <configuration name="GameTest.Given_Response1_When_askAction_Then_NormalAttack" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GameTest_Given_Response1_When_askAction_Then_NormalAttack - 2019.04.27 at 14h 12m 09s.xml">
+      <configuration name="GameTest.Given_Response1_When_askAction_Then_NormalAttack" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1600" height="875" extended-state="6" />
+    <frame x="0" y="25" width="1600" height="875" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28727508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2911311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -361,7 +359,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -387,32 +385,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Test/CharacterTest.java" />
     <entry file="file://$PROJECT_DIR$/Test/PlayerTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
-          <folding>
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1677#1678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Rogue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -422,15 +394,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Warrior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="112" column="80" selection-start-line="112" selection-start-column="80" selection-end-line="112" selection-end-column="80" />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="86" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -446,18 +425,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/com/jdlr/rpg/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="112" column="80" selection-start-line="112" selection-start-column="80" selection-end-line="112" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdlr/rpg/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+        <state relative-caret-position="283">
+          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
         </state>
       </provider>
     </entry>
